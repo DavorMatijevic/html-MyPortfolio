@@ -1,0 +1,71 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0b673f, #ed9c11, #8e8e8e);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.Logo{border-radius: 50%;
+height: 35px;}
+
+.Profile{border-radius: 20px;box-shadow: rgba(5, 0, 2, 0.4) 5px 5px, rgba(1, 0, 1, 0.3) 10px 10px, rgba(9, 0, 6, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(66, 60, 2, 0.05) 25px 25px;}
+
+.nav-link{color: white;}
+
+.Projects{background-color: #eeeeee;
+margin-top: -25px;}
+
+.DogContainer{
+display: inline-block;
+width: 50%;
+margin-left: 20%;
+}
+.DogProject{float: left;}
+.DogText{margin-top: 45px;
+font-size: 1.2em;}
+
+.FlagContainer{
+display: inline-block;
+width: 50%;
+margin-left: 25%;}
+.FlagProject{float: right;
+margin-bottom: 40px;}
+.FlagText{margin-top: 40px;
+font-size: 1.2em;}
+
+.Machine{border-radius: 3px;
+    padding-bottom: 20px;
+}
+
+.InfoContainer{max-width: 700px;
+margin: 0 auto;
+}
+
+.Biography{margin: 0 auto;
+text-align: center;
+word-wrap: break-word;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.4em; 
+}
+
+.Info{margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+.FooterContainer{padding-bottom: 20px;
+}
+
+.Icon{margin-right: 150px;
+}
